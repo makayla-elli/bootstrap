@@ -4,3 +4,81 @@
         Assignment: Bootstrap B&B
         File Name: styles.css 
 */
+
+.content {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 600px;
+}
+
+#review1 {
+    margin-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+#review2 {
+    margin-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+#review3 {
+    margin-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+.review {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:1000px){
+    #review1 {
+        margin-top: 30px;
+        width: 48%;
+        float: right;
+    }
+    
+    #review2 {
+        margin-top: 30px;
+        width: 48%;
+        float: right;
+    }
+    
+    #review3 {
+        margin-top: 30px;
+        width: 48%;
+        float: right;
+    }
+}
+
+@media screen and (max-width:765px){
+    #review1 {
+        margin-top: 30px;
+        width: 100%;
+        float: right;
+    }
+    
+    #review2 {
+        margin-top: 30px;
+        width: 100%;
+        float: right;
+    }
+    
+    #review3 {
+        margin-top: 30px;
+        width: 100%;
+        float: right;
+    }
+}
