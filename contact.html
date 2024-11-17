@@ -23,21 +23,71 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Midwest Mornings Inn</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">Midwest Mornings Inn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+
+    <div class="content">
+        <h1>Midwest Mornings Inn</h1>
+        <h3>Bed & Breakfast</h3>
+    </div>
+
+    <div class="form">
+        <h1>Looking to stay with us...</h1>
+        <h5>Fill in your contact information and we'll send you a link to book your trip!</h5>
+        <div class="row g-3">
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+            </div>
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="Phone number" aria-label="Phone number">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    I'd like to hear about exciting promotions in the future
+                </label>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Send me info</button>
+        </div>
+    </div>
+
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1594.2096864655687!2d-92.66327696032717!3d36.952039799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cfe9b3919712d3%3A0x1a9adaceaf6dffce!2s301%20W%20Washington%20Ave%2C%20Ava%2C%20MO%2065608!5e0!3m2!1sen!2sus!4v1731884900298!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" target="_blank">
+        </iframe>
+    </div>
 </body>
 
 </html>
